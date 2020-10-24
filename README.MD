@@ -77,12 +77,24 @@ Results
 ### Contours
 
 <table>
-  <tr>
-    <td><img src="images/Table1/l1.png"  alt="1" width = 153px height = 153px ></td>
-    <td><img src="images/Table1/r1.png"  alt="1" width = 153px height = 153px ></td>
-  </tr> 
-  <tr>
-      <td><img src="images/Table1/l2.png"  alt="1" width = 153px height = 153px ></td>
-      <td><img src="images/Table1/r2.png"  alt="1" width = 153px height = 153px ></td>
-  </tr>
+   <tr align="center" valign="center">
+     <td> 3 </td>
+     <td><img src="images/Table1/l1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table1/r1.png"  alt="1" width = 153px height = 153px ></td>
+   </tr> 
+   <tr align="center" valign="center">
+     <td> 25 </td>
+     <td><img src="images/Table1/l2.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table1/r2.png"  alt="1" width = 153px height = 153px ></td>
+   </tr>
+   <tr align="center" valign="center">
+     <td> 27 </td>
+     <td><img src="images/Table1/l3.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table1/r3.png"  alt="1" width = 153px height = 153px ></td>
+   </tr>
+   <tr align="center" valign="center">
+     <td> Patient ID </td>
+     <td> SCPD-Net(Ours) </td>
+     <td> DisplacementField </td>
+   </tr>
 </table>
