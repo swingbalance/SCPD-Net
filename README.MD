@@ -73,3 +73,16 @@ Evaluation
 
 Results
 =
+
+### Contours
+
+<table>
+  <tr>
+    <td><img src="images/Table1/l1.png"  alt="1" width = 153px height = 153px ></td>
+    <td><img src="images/Table1/r1.png"  alt="1" width = 153px height = 153px ></td>
+  </tr> 
+  <tr>
+      <td><img src="images/Table1/l2.png"  alt="1" width = 153px height = 153px ></td>
+      <td><img src="images/Table1/r2.png"  alt="1" width = 153px height = 153px ></td>
+  </tr>
+</table>
