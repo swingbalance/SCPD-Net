@@ -82,7 +82,7 @@ Results
       <td colspan=2>Output</td>
    </tr>
    <tr align="center" valign="center">
-     <td> Patient ID </td>
+     <td> Patient's ID </td>
      <td> Moving image </td>
      <td> Fixed image </td>
      <th> SCPD-Net(Ours) </th>
@@ -115,7 +115,7 @@ Results
 
 <table>
    <tr align="center" valign="center">
-     <td> Patient ID </td>
+     <td> Patient's ID </td>
      <td> SCPD-Net(Ours) </td>
      <td> DisplacementField </td>
    </tr>
@@ -145,9 +145,9 @@ Results
       <td colspan=2>Overlay image</td>
    </tr>
    <tr align="center" valign="center">
-     <td> Patient ID </td>
-     <td> Moving image </td>
-     <td> Fixed image </td>
+     <td> Patient's ID </td>
+     <td> SCPD-Net(Ours) </td>
+     <td> DisplacementField </td>
      <th> SCPD-Net(Ours) </th>
      <td> DisplacementField</td>
    </tr>
