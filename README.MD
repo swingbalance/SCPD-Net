@@ -147,11 +147,9 @@ Results
    </tr>
 </table>
 
-Blue for lung contour of moving image
-
-Red for lung contour of warped image
-
-Green for lung contour of fixed image
+Blue : moving image
+Red : warped image
+Green : fixed image
 
 ### Comparison image and Overlay image
 
@@ -191,11 +189,8 @@ Green for lung contour of fixed image
    </tr>
 </table>
 Comparison image : 
-
-Purple for warped image
-
-Green for fixed image
+Purple : warped image
+Green : fixed image
 
 Overlay image :
-
 Overlayed warped image(purple) and fixed image(green) to observe the lesions
