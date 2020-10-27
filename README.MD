@@ -187,7 +187,8 @@ Green : fixed image
      <td><img src="images/Comparison_and_Overlay/c3.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Comparison_and_Overlay/c4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
-</table>  
+</table>
+
 Purple : warped image  
 Green : fixed image
 
