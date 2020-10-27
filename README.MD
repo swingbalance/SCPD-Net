@@ -147,9 +147,9 @@ Results
    </tr>
 </table>
 
-Blue : moving image
-Red : warped image
-Green : fixed image
+Blue : moving image  
+Red : warped image  
+Green : fixed image  
 
 ### Comparison image and Overlay image
 
@@ -188,9 +188,9 @@ Green : fixed image
      <td><img src="images/Comparison_and_Overlay/c4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
 </table>
-Comparison image : 
-Purple : warped image
-Green : fixed image
+Comparison image :   
+Purple : warped image  
+Green : fixed image  
 
-Overlay image :
+Overlay image :  
 Overlayed warped image(purple) and fixed image(green) to observe the lesions
