@@ -153,21 +153,21 @@ Results
    </tr>
    <tr align="center" valign="center">
      <td> 3 </td>
-     <td><img src="images/Table3/a1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/a1.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/a2.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/a3.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/a4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr> 
    <tr align="center" valign="center">
      <td> 25 </td>
-     <td><img src="images/Table3/b1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/b1.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/b2.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/b3.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/b4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
    <tr align="center" valign="center">
      <td> 27 </td>
-     <td><img src="images/Table3/c1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/c1.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/c2.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/c3.jpg"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table3/c4.jpg"  alt="1" width = 153px height = 153px ></td>
