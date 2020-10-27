@@ -80,8 +80,8 @@ Results
      <td> Patient ID </td>
      <td> Moving image </td>
      <td> Fixed image </td>
-     <td> Output image (Ours) </td>
-     <td> Output image (DisplacementField) </td>
+     <td> Output(Ours) </td>
+     <td> Output(DisplacementField) </td>
    </tr>
    <tr align="center" valign="center">
      <td> 3 </td>
