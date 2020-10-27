@@ -78,9 +78,8 @@ Results
 <table>
    <tr align="center" valign="center">
       <td></td>
-      <td></td>
-      <td></td>
-      <th colspan=2>Output</th>
+      <td colspan=2>Input</td>
+      <td colspan=2>Output</td>
    </tr>
    <tr align="center" valign="center">
      <td> Patient ID </td>
@@ -137,14 +136,13 @@ Results
    </tr>
 </table>
 
-### Comparison of Difference image and Overlay image
+### Comparison image and Overlay image
 
 <table>
    <tr align="center" valign="center">
       <td></td>
-      <td></td>
-      <td></td>
-      <th colspan=2>Output</th>
+      <td colspan=2>Comparison image</td>
+      <td colspan=2>Overlay image</td>
    </tr>
    <tr align="center" valign="center">
      <td> Patient ID </td>
