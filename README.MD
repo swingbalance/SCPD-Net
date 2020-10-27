@@ -1,3 +1,18 @@
+SCPD-Net: Siamese Correlation Pyramid Deformation Network for Chest X-Ray Image Registration
+=
+
+Intro
+=
+Thoraclogist spends lots of time to compare chest X-ray images(Means one patient captures at different time) to find out lesions.
+
+Purpose
+==
+Develope a fast registration model to reduce the fatigue of Thoracologist.
+Try to warp moving image to fixed image as similar as possible.
+
+Therefore, 
+doctor can easily find out the difference by comparing warped image and fixed image.
+
 Evaluation
 =
 <table>
@@ -135,6 +150,9 @@ Results
      <td><img src="images/Contours/r3.png"  alt="1" width = 153px height = 153px ></td>
    </tr>
 </table>
+Blue for lung contour of moving image
+Red for lung contour of warped image
+Green for lung contour of fixed image
 
 ### Comparison image and Overlay image
 
@@ -173,3 +191,9 @@ Results
      <td><img src="images/Comparison_and_Overlay/c4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
 </table>
+Comparison image : 
+Purple for warped image
+Green for fixed image
+
+Overlay image :
+I overlayed warped image(purple) and fixed image(green) to observe the lesions
