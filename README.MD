@@ -90,24 +90,24 @@ Results
    </tr>
    <tr align="center" valign="center">
      <td> 3 </td>
-     <td><img src="images/Table2/a1.png"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/a2.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/a3.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/a4.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/a1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/a2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/a3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/a4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr> 
    <tr align="center" valign="center">
      <td> 25 </td>
-     <td><img src="images/Table2/b1.png"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/b2.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/b3.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/b4.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/b1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/b2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/b3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/b4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
    <tr align="center" valign="center">
      <td> 27 </td>
-     <td><img src="images/Table2/c1.png"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/c2.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/c3.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table2/c4.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/c1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/c2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/c3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Input_and_Warped/c4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
 </table>
 
@@ -121,18 +121,18 @@ Results
    </tr>
    <tr align="center" valign="center">
      <td> 3 </td>
-     <td><img src="images/Table1/l1.png"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table1/r1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Contours/l1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Contours/r1.png"  alt="1" width = 153px height = 153px ></td>
    </tr> 
    <tr align="center" valign="center">
      <td> 25 </td>
-     <td><img src="images/Table1/l2.png"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table1/r2.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Contours/l2.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Contours/r2.png"  alt="1" width = 153px height = 153px ></td>
    </tr>
    <tr align="center" valign="center">
      <td> 27 </td>
-     <td><img src="images/Table1/l3.png"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table1/r3.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Contours/l3.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Contours/r3.png"  alt="1" width = 153px height = 153px ></td>
    </tr>
 </table>
 
@@ -153,23 +153,23 @@ Results
    </tr>
    <tr align="center" valign="center">
      <td> 3 </td>
-     <td><img src="images/Table3/a1.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/a2.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/a3.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/a4.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/a1.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/a2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/a3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/a4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr> 
    <tr align="center" valign="center">
      <td> 25 </td>
-     <td><img src="images/Table3/b1.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/b2.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/b3.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/b4.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/b1.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/b2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/b3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/b4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
    <tr align="center" valign="center">
      <td> 27 </td>
-     <td><img src="images/Table3/c1.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/c2.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/c3.jpg"  alt="1" width = 153px height = 153px ></td>
-     <td><img src="images/Table3/c4.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/c1.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/c2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/c3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Comparison_and_Overlay/c4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
 </table>
