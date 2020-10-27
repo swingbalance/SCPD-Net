@@ -1,18 +1,13 @@
 SCPD-Net: Siamese Correlation Pyramid Deformation Network for Chest X-Ray Image Registration
 =
+A fast registration model based on deep learning
 
 Intro
 =
 Thoraclogist spends lots of time to compare chest X-ray images(means one patient captures at different time) to find out lesions.
 
-Purpose
-==
-Develope a fast registration model to reduce the fatigue of Thoracologist.
-
-Try to warp moving image to fixed image as similar as possible.
-
-Therefore, 
-doctor can easily find out the difference by comparing warped image and fixed image.
+This model try to warp moving image to fixed image as similar as possible,
+therefore doctor can easily find out the difference by comparing warped image and fixed image.
 
 Evaluation
 =
