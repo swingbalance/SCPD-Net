@@ -73,6 +73,38 @@ Evaluation
 
 Results
 =
+### Input pairs and warped results
+
+<table>
+   <tr align="center" valign="center">
+     <td> Patient ID </td>
+     <td> Moving image </td>
+     <td> Fixed image </td>
+     <td> Output image (Ours) </td>
+     <td> Output image (DisplacementField) </td>
+   </tr>
+   <tr align="center" valign="center">
+     <td> 3 </td>
+     <td><img src="images/Table2/a1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/a2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/a3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/a4.jpg"  alt="1" width = 153px height = 153px ></td>
+   </tr> 
+   <tr align="center" valign="center">
+     <td> 25 </td>
+     <td><img src="images/Table2/b1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/b2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/b3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/b4.jpg"  alt="1" width = 153px height = 153px ></td>
+   </tr>
+   <tr align="center" valign="center">
+     <td> 27 </td>
+     <td><img src="images/Table2/c1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/c2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/c3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table2/c4.jpg"  alt="1" width = 153px height = 153px ></td>
+   </tr>
+</table>
 
 ### Contours
 
