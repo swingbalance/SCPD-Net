@@ -45,7 +45,7 @@ if __name__ == '__main__':
     model = torch.nn.DataParallel(model, device_ids=config_testing.gpu_ids)
 
     # 2. Load checkpoint
-    # Note that our model was trained on multi-GPU
+    # Note that my model was trained on multi-GPU
     ckpt_path = os.path.join(config_testing.exp_dir, config_testing.exp_name, 'checkpoint', 'model_latest.pth')
     print('Load model from', ckpt_path)
     ckpt = torch.load(ckpt_path)
