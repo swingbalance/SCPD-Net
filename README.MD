@@ -3,7 +3,7 @@ Evaluation
 <table>
    <tr align="center" valign="center">
       <td></td>
-      <th colspan=2 >Deep learning</th>
+      <th colspan=2>Deep learning</th>
       <th colspan=2>Traditional method</th>
    </tr>
    <tr align="center" valign="center">
@@ -77,11 +77,17 @@ Results
 
 <table>
    <tr align="center" valign="center">
+      <td></td>
+      <td></td>
+      <td></td>
+      <th colspan=2>Output</th>
+   </tr>
+   <tr align="center" valign="center">
      <td> Patient ID </td>
      <td> Moving image </td>
      <td> Fixed image </td>
-     <td> Output(Ours) </td>
-     <td> Output(DisplacementField) </td>
+     <th> SCPD-Net(Ours) </th>
+     <td> DisplacementField</td>
    </tr>
    <tr align="center" valign="center">
      <td> 3 </td>
@@ -106,7 +112,7 @@ Results
    </tr>
 </table>
 
-### Contours
+### Lung Contours
 
 <table>
    <tr align="center" valign="center">
@@ -128,5 +134,44 @@ Results
      <td> 27 </td>
      <td><img src="images/Table1/l3.png"  alt="1" width = 153px height = 153px ></td>
      <td><img src="images/Table1/r3.png"  alt="1" width = 153px height = 153px ></td>
+   </tr>
+</table>
+
+### Comparison of Difference image and Overlay image
+
+<table>
+   <tr align="center" valign="center">
+      <td></td>
+      <td></td>
+      <td></td>
+      <th colspan=2>Output</th>
+   </tr>
+   <tr align="center" valign="center">
+     <td> Patient ID </td>
+     <td> Moving image </td>
+     <td> Fixed image </td>
+     <th> SCPD-Net(Ours) </th>
+     <td> DisplacementField</td>
+   </tr>
+   <tr align="center" valign="center">
+     <td> 3 </td>
+     <td><img src="images/Table3/a1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/a2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/a3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/a4.jpg"  alt="1" width = 153px height = 153px ></td>
+   </tr> 
+   <tr align="center" valign="center">
+     <td> 25 </td>
+     <td><img src="images/Table3/b1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/b2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/b3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/b4.jpg"  alt="1" width = 153px height = 153px ></td>
+   </tr>
+   <tr align="center" valign="center">
+     <td> 27 </td>
+     <td><img src="images/Table3/c1.png"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/c2.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/c3.jpg"  alt="1" width = 153px height = 153px ></td>
+     <td><img src="images/Table3/c4.jpg"  alt="1" width = 153px height = 153px ></td>
    </tr>
 </table>
