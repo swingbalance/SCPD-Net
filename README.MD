@@ -146,8 +146,8 @@ Results
      <td><img src="images/Contours/r3.png"  alt="1" width = 153px height = 153px ></td>
    </tr>
 </table>
-Blue for lung contour of moving image
-Red for lung contour of warped image
+Blue for lung contour of moving image\
+Red for lung contour of warped image\
 Green for lung contour of fixed image
 
 ### Comparison image and Overlay image
@@ -192,4 +192,4 @@ Purple for warped image
 Green for fixed image
 
 Overlay image :
-I overlayed warped image(purple) and fixed image(green) to observe the lesions
+Overlayed warped image(purple) and fixed image(green) to observe the lesions
