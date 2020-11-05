@@ -1,6 +1,6 @@
 SCPD-Net: Siamese Correlation Pyramid Deformation Network for Chest X-Ray Image Registration
 =
-A fast registration model based on deep learning
+A fast chest X-rays images registration model based on deep learning
 
 Intro
 =
