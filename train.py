@@ -80,7 +80,7 @@ def train(config, exp_fold_dict):
     for idx in range(config.n_iter):
         model.module.update_iter(idx)
 
-        # If the cropped image has been saved, use this for training acceleration
+        # If the cropped image has been saved, use this to accelerate
         if config.seg:
             input_moving_crop, input_fixed_crop, input_moving_seg, input_fixed_seg, ID_s, ID_t = next(iter(dataloader))
             input_moving_seg, input_fixed_seg = input_moving_seg.cuda(), input_fixed_seg.cuda()
@@ -91,14 +91,14 @@ def train(config, exp_fold_dict):
 
         fname = str(ID_s).split('\'')[1] + ', ' + str(ID_t).split('\'')[1]
 
-        ' Histogram matching : moving image -> fixed image '
+        # Histogram matching : To find the intentity histogram between moving image and fixed image
         input_moving_hm = input_moving_crop
         # input_moving_hm = his_match(input_moving_crop, input_fixed_crop).cuda()
 
-        ''' Stage2: To produce warped image and flow field '''
+        # Step2: To produce warped image and flow field 
         warped, flow, flow_warp, flow_gt = model(input_moving_hm, input_fixed_crop)
 
-        ' Calculate loss '
+        # Calculate loss 
         loss_sim = sim_loss_fn(warped, input_fixed_crop)  # NCC
         loss_flow = grad_loss_fn(flow)
 
@@ -113,14 +113,14 @@ def train(config, exp_fold_dict):
         loss.backward()
         optimizer.step()
 
-        ' Loss filter for visualization: Comment for ignored loss '
+        # Loss filter for visualization: Comment to ignore specfic loss 
         loss_dict = {'Total': loss.item(),
                      'Sim': loss_sim.item(),
                      'Reg': loss_flow.item(),
                      'VGG': loss_vgg.item(),
                      }
 
-        ' Evaluation '
+        # Evaluation 
         if (idx + 1) % config.n_upload_iter == 0:
             eval_mse = metrics.mse(warped, input_fixed_crop)
             eval_mad = metrics.mad(warped, input_fixed_crop)
@@ -129,7 +129,7 @@ def train(config, exp_fold_dict):
             writer.add_scalar('Evaluation_metric/intensity_based/MSE', eval_mse.float(), idx)
             writer.add_scalar('Evaluation_metric/intensity_based/MAD', eval_mad.float(), idx)
 
-            # Loss curve
+            # Loss
             writer.add_scalars('Loss/Encoder_MF', loss_dict, idx)
 
             # Images
@@ -137,7 +137,7 @@ def train(config, exp_fold_dict):
             writer.add_image('Image/Input/Moving_histogram_matching', input_moving_hm[0], idx)
             writer.add_image('Image/Output/Warped_image', warped[0], idx)
 
-            # GIF
+            # GIF on tensorboard
             gif_mov2warp = gif_maker(input_moving_hm, warped)
             gif_warp2fix = gif_maker(warped, input_fixed_crop)
             gif_mov2fix = gif_maker(input_moving_hm, input_fixed_crop)
@@ -152,7 +152,7 @@ def train(config, exp_fold_dict):
         #     print('Nan at iter {:d}, break training!'.format(idx))
         #     break
 
-        ' Memorize best loss'
+        # Memorize best loss
         if loss_best > loss:
             ' Save checkpoint of best model '
             save_model_information(exp_fold_dict, model, mode='state_dict')
@@ -160,7 +160,7 @@ def train(config, exp_fold_dict):
             iter_best = idx
             loss_best = loss
 
-        ' Display loss on terminal '' Save model weight and image results '
+        # 1. Display loss on terminal 2. Save model weight and visualize results '
         if (idx+1) % config.n_display_iter == 0:
             print('\n\nIter %d ' % (idx+1))
             print('\tEncoder_MF:\n\t\t', end='')
@@ -184,7 +184,7 @@ def train(config, exp_fold_dict):
                        }
             torch.save(ckpt_s2, save_model_path)
 
-    ' Save the latest checkpoint at the end of training'
+    # Save the latest checkpoint at the end of training
     save_model_path = os.path.join(exp_fold_dict['checkpoint'], 'model_latest.pth')
     ckpt_s2 = {'iteration': model.module.iteration,
                'state_dict': model.module.Encoder.state_dict(),
@@ -200,25 +200,25 @@ if __name__ == "__main__":
     with warnings.catch_warnings():
         warnings.filterwarnings("ignore", category=DeprecationWarning)
 
-    ' Load training hyperparameters from Config.py '
+    ' Load config from Config.py '
     config = Config()
     print('Info : ', config)
 
-    ' Create experimental environment '
+    ' Create experimental directory '
     exp_fold_dict = create_exp_env(config.exp_dir, config.exp_name)
 
-    ' Call for multiprocessing '
+    ' Use multiprocessing '
     run()
 
-    ' Add process1 to tensorboard '
+    ' Start process1 '
     p1 = torch.multiprocessing.Process(target=tf_board_process, args=(exp_fold_dict['logger'],))
     p1.start()
 
-    ' Add process2 to tensorboard '
+    ' Start process2 '
     p2 = torch.multiprocessing.Process(target=train, args=(config, exp_fold_dict))
     p2.start()
 
-    ' Start multiprocessing '
+    ' Wait process finish '
     p1.join()
     p2.join()
 
